@@ -4,18 +4,18 @@
 Spring Data JPA 실습 과제 Solution 코드는 유어클래스의 실습 과제에 사용된 코드로 구성되어 있습니다.
 
 * Spring Data JPA 실습 과제 Solution과 관련이 있는 클래스
-  * [Order](https://github.com/Lucky-kor/be-solution-jpa/blob/5703b335b8a38da3ebefe689cc32f9c6471b67dd/src/main/java/com/codestates/order/entity/Order.java)
-  * [OrderCoffee](https://github.com/Lucky-kor/be-solution-jpa/blob/5703b335b8a38da3ebefe689cc32f9c6471b67dd/src/main/java/com/codestates/order/entity/OrderCoffee.java)
-  * [Coffee](https://github.com/Lucky-kor/be-solution-jpa/blob/5703b335b8a38da3ebefe689cc32f9c6471b67dd/src/main/java/com/codestates/coffee/entity/Coffee.java)
-  * [Money](https://github.com/Lucky-kor/be-solution-jpa/blob/5703b335b8a38da3ebefe689cc32f9c6471b67dd/src/main/java/com/codestates/values/Money.java)
-  * [Member](https://github.com/Lucky-kor/be-solution-jpa/blob/5703b335b8a38da3ebefe689cc32f9c6471b67dd/src/main/java/com/codestates/member/entity/Member.java)
-  * [Stamp](https://github.com/Lucky-kor/be-solution-jpa/blob/5703b335b8a38da3ebefe689cc32f9c6471b67dd/src/main/java/com/codestates/stamp/Stamp.java)
-  * [Auditable](https://github.com/Lucky-kor/be-solution-jpa/blob/5703b335b8a38da3ebefe689cc32f9c6471b67dd/src/main/java/com/codestates/audit/Auditable.java)
-  * [AuditorAwareImpl](https://github.com/Lucky-kor/be-solution-jpa/blob/5703b335b8a38da3ebefe689cc32f9c6471b67dd/src/main/java/com/codestates/audit/AuditorAwareImpl.java)
-  * [OrderService](https://github.com/Lucky-kor/be-solution-jpa/blob/5703b335b8a38da3ebefe689cc32f9c6471b67dd/src/main/java/com/codestates/order/service/OrderService.java)
-  * [OrderController](https://github.com/Lucky-kor/be-solution-jpa/blob/5703b335b8a38da3ebefe689cc32f9c6471b67dd/src/main/java/com/codestates/order/controller/OrderController.java)
-  * [OrderMapper](https://github.com/Lucky-kor/be-solution-jpa/blob/5703b335b8a38da3ebefe689cc32f9c6471b67dd/src/main/java/com/codestates/order/mapper/OrderMapper.java)
-  * [OrderResponseDto](https://github.com/Lucky-kor/be-solution-jpa/blob/5703b335b8a38da3ebefe689cc32f9c6471b67dd/src/main/java/com/codestates/order/dto/OrderResponseDto.java)
+  * [Order](https://github.com/Lucky-kor/be-solution-jpa/blob/src/main/java/com/springboot/order/entity/Order.java)
+  * [OrderCoffee](https://github.com/Lucky-kor/be-solution-jpa/blob/main/src/main/java/com/springboot/order/entity/OrderCoffee.java)
+  * [Coffee](https://github.com/Lucky-kor/be-solution-jpa/blob/main/src/main/java/com/springboot/coffee/entity/Coffee.java)
+  * [Money](https://github.com/Lucky-kor/be-solution-jpa/blob/main/src/main/java/com/springboot/values/Money.java)
+  * [Member](https://github.com/Lucky-kor/be-solution-jpa/blob/main/src/main/java/com/springboot/member/entity/Member.java)
+  * [Stamp](https://github.com/Lucky-kor/be-solution-jpa/blob/main/src/main/java/com/springboot/stamp/Stamp.java)
+  * [Auditable](https://github.com/Lucky-kor/be-solution-jpa/blob/main/src/main/java/com/springboot/audit/Auditable.java)
+  * [AuditorAwareImpl](https://github.com/Lucky-kor/be-solution-jpa/blob/main/src/main/java/com/springboot/audit/AuditorAwareImpl.java)
+  * [OrderService](https://github.com/Lucky-kor/be-solution-jpa/blob/main/src/main/java/com/springboot/order/service/OrderService.java)
+  * [OrderController](https://github.com/Lucky-kor/be-solution-jpa/blob/main/src/main/java/com/springboot/order/controller/OrderController.java)
+  * [OrderMapper](https://github.com/Lucky-kor/be-solution-jpa/blob/main/src/main/java/com/springboot/order/mapper/OrderMapper.java)
+  * [OrderResponseDto](https://github.com/Lucky-kor/be-solution-jpa/blob/main/src/main/java/com/springboot/order/dto/OrderResponseDto.java)
   
 * Advanced 예제
   * [static 멤버 클래스를 이용한 DTO 클래스 리팩토링](#static-멤버-클래스를-이용한-dto-클래스-리팩토링)
@@ -43,9 +43,9 @@ Spring Data JPA 실습 과제 Solution 코드는 유어클래스의 실습 과�
 static 멤버 클래스를 이용해 DTO 클래스의 개수를 줄이는 예제 코드입니다.
 * 소스 코드 경로
   * DTO
-    * [src/main/java/com/springboot/member/dto/MemberDto.java](https://github.com/Lucky-kor/be-solution-jpa/blob/93bf231948a1188fa4ec8005f2cc23f629239878/src/main/java/com/codestates/member/dto/MemberDto.java)
+    * [src/main/java/com/springboot/member/dto/MemberDto.java](https://github.com/Lucky-kor/be-solution-jpa/blob/93bf231948a1188fa4ec8005f2cc23f629239878/src/main/java/com/springboot/member/dto/MemberDto.java)
   * Mapper
-    * [src/main/java/com/springboot/member/mapper/MemberMapper.java](https://github.com/Lucky-kor/be-solution-jpa/blob/93bf231948a1188fa4ec8005f2cc23f629239878/src/main/java/com/codestates/member/mapper/MemberMapper.java)
+    * [src/main/java/com/springboot/member/mapper/MemberMapper.java](https://github.com/Lucky-kor/be-solution-jpa/blob/93bf231948a1188fa4ec8005f2cc23f629239878/src/main/java/com/springboot/member/mapper/MemberMapper.java)
 
 ---
 
@@ -53,20 +53,20 @@ static 멤버 클래스를 이용해 DTO 클래스의 개수를 줄이는 예제
 Mapstruct의 @Mapping 애너테이션을 이용해 필드를 매핑하는 예제 코드입니다.
 * 소스 코드 경로
   * DTO
-    * [src/main/java/com/springboot/member/dto/MemberDto.java](https://github.com/Lucky-kor/be-solution-jpa/blob/93bf231948a1188fa4ec8005f2cc23f629239878/src/main/java/com/codestates/member/dto/MemberDto.java)
+    * [src/main/java/com/springboot/member/dto/MemberDto.java](https://github.com/Lucky-kor/be-solution-jpa/blob/93bf231948a1188fa4ec8005f2cc23f629239878/src/main/java/com/springboot/member/dto/MemberDto.java)
   * Mapper
-    * [src/main/java/com/springboot/member/mapper/MemberMapper.java](https://github.com/Lucky-kor/be-solution-jpa/blob/93bf231948a1188fa4ec8005f2cc23f629239878/src/main/java/com/codestates/member/mapper/MemberMapper.java)
+    * [src/main/java/com/springboot/member/mapper/MemberMapper.java](https://github.com/Lucky-kor/be-solution-jpa/blob/93bf231948a1188fa4ec8005f2cc23f629239878/src/main/java/com/springboot/member/mapper/MemberMapper.java)
 ---
 
 ### Value Object를 타입으로 사용하기 위한 예제 코드
 Spring Data JPA에서 Value Object를 데이터 타입으로 사용하기 위해 @Embeddable / @Embedded 애너테이션을 사용할 수 있습니다.
 * 소스 코드 경로
   * Money 타입 Value Object
-    * [src/main/java/com/springboot/values](https://github.com/Lucky-kor/be-solution-jpa/tree/main/src/main/java/com/codestates/values)
+    * [src/main/java/com/springboot/values](https://github.com/Lucky-kor/be-solution-jpa/tree/main/src/main/java/com/springboot/values)
   * Entity
-    * [src/main/java/com/springboot/coffee/entity](https://github.com/Lucky-kor/be-solution-jpa/tree/main/src/main/java/com/codestates/coffee/entity)
+    * [src/main/java/com/springboot/coffee/entity](https://github.com/Lucky-kor/be-solution-jpa/tree/main/src/main/java/com/springboot/coffee/entity)
   * Mapper
-    * [src/main/java/com/springboot/coffee/mapper](https://github.com/Lucky-kor/be-solution-jpa/tree/main/src/main/java/com/codestates/coffee/mapper)
+    * [src/main/java/com/springboot/coffee/mapper](https://github.com/Lucky-kor/be-solution-jpa/tree/main/src/main/java/com/springboot/coffee/mapper)
 
 ---
 
@@ -76,10 +76,10 @@ Projection 기능을 이용하면 간단한 읽기 전용 엔티티를 사용할
 하지만 코드의 일관성을 위해 간단한 읽기 전용 엔티티를 위해서만 사용하는 것이 더 나은 선택일 수 있습니다.
 * 소스 코드 경로
   * MemberExcludeName
-    * [src/main/java/com/springboot/member/entity/MemberExcludeName](https://github.com/Lucky-kor/be-solution-jpa/blob/main/src/main/java/com/codestates/member/entity/MemberExcludeName.java)
+    * [src/main/java/com/springboot/member/entity/MemberExcludeName](https://github.com/Lucky-kor/be-solution-jpa/blob/main/src/main/java/com/springboot/member/entity/MemberExcludeName.java)
   * MemberRepository
-    * [src/main/java/com/springboot/member/repository/MemberRepository/findByMemberId(long memberId)](https://github.com/Lucky-kor/be-solution-jpa/blob/main/src/main/java/com/codestates/member/repository/MemberRepository.java)
+    * [src/main/java/com/springboot/member/repository/MemberRepository/findByMemberId(long memberId)](https://github.com/Lucky-kor/be-solution-jpa/blob/main/src/main/java/com/springboot/member/repository/MemberRepository.java)
   * MemberService
-    * [src/main/java/com/springboot/member/service/MemberService/findMemberExcludeName(long memberId)](https://github.com/Lucky-kor/be-solution-jpa/blob/main/src/main/java/com/codestates/member/service/MemberService.java)
+    * [src/main/java/com/springboot/member/service/MemberService/findMemberExcludeName(long memberId)](https://github.com/Lucky-kor/be-solution-jpa/blob/main/src/main/java/com/springboot/member/service/MemberService.java)
   * MemberController
-    * [src/main/java/com/springboot/member/service/MemberController/getMember2(@PathVariable("member-id") @Positive long memberId)](https://github.com/Lucky-kor/be-solution-jpa/blob/main/src/main/java/com/codestates/member/controller/MemberController.java)
+    * [src/main/java/com/springboot/member/service/MemberController/getMember2(@PathVariable("member-id") @Positive long memberId)](https://github.com/Lucky-kor/be-solution-jpa/blob/main/src/main/java/com/springboot/member/controller/MemberController.java)
